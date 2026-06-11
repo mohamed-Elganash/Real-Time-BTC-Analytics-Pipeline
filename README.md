@@ -10,7 +10,7 @@ The system combines streaming analytics and batch storage architectures to provi
 
 ### Data Flow
 
-![Alt text](images/flow.jpeg)
+![Alt text](images/flow.png)
 
 ## Project Objectives
 
