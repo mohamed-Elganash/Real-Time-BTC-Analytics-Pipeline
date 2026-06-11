@@ -10,44 +10,7 @@ The system combines streaming analytics and batch storage architectures to provi
 
 ### Data Flow
 
-```text
-                  +----------------+
-                  |   BiQuote API  |
-                  +--------+-------+
-                           |
-                           v
-                  +----------------+
-                  | Apache Flume   |
-                  | (Ingestion)    |
-                  +--------+-------+
-                           |
-                           v
-                  +----------------+
-                  | Apache Kafka   |
-                  | Event Broker   |
-                  +--------+-------+
-                           |
-          +----------------+----------------+
-          |                                 |
-          v                                 v
-
- +----------------+               +----------------+
- | Apache Spark   |               | Apache Flume   |
- | Streaming      |               | Kafka Consumer |
- +--------+-------+               +--------+-------+
-          |                                |
-          v                                v
-
- +----------------+               +----------------+
- | InfluxDB       |               | Hadoop HDFS    |
- | Time-Series DB |               | Historical Data|
- +--------+-------+               +--------+-------+
-          |
-          v
- +----------------+
- | Live Dashboard |
- +----------------+
-```
+![Alt text](images/)
 
 ## Project Objectives
 
