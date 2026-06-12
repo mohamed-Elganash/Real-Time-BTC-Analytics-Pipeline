@@ -152,12 +152,3 @@ This project demonstrates practical experience with:
 Data Engineer | Big Data Enthusiast | Real-Time Analytics
 
 Connect with me on LinkedIn and feel free to contribute, suggest improvements, or share feedback.
-
-For GitHub, I also recommend adding:
-
-* An architecture diagram image (`docs/architecture.png`)
-* Dashboard screenshots (`docs/dashboard.png`)
-* A `docker-compose.yml` for local deployment
-* Sample Kafka topics and Spark jobs
-* Setup instructions section if you plan to make the repository public.
-*
